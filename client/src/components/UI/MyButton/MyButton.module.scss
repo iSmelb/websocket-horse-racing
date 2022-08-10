@@ -1,0 +1,23 @@
+.myBtn {
+    display: block;
+    padding: 15px;
+    min-width: 120px;
+    border-radius: 12px;
+    color: #fff;
+    border: none;
+    background-color: #24a3ff;
+    box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:disabled {
+        pointer-events: none;
+        opacity: 0.7;
+    }
+}
+
+
+.myBtn:hover {
+    background-color: #0085ff;
+}

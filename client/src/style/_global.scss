@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 375px;
+    overflow: hidden;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.conteiner {
+    max-width:1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
